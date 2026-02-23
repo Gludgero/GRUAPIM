@@ -1,0 +1,12 @@
+# Ignorar arquivos de sistema e IDEs
+.metadata/
+.settings/
+.classpath
+.project
+bin/
+build/
+*.class
+
+# Ignorar arquivos temporários e logs
+*.log
+*.tmp
