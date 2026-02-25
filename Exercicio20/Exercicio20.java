@@ -1,8 +1,8 @@
-package Exercicio18;
+package Exercicio20;
 
 import java.util.Scanner;
 
-public class Exercicio18 {
+public class Exercicio20 {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -33,8 +33,8 @@ public class Exercicio18 {
                     String nomeContato = sc.nextLine();
                     System.out.println("\nDigite o número para o contato "+ nomeContato);
                     String numeroContato = sc.nextLine();
-                    agenda.adicionaCont(nomeContato, numeroContato);
-                    System.out.println("\nContato adicionado!\n");
+                    String result = agenda.adicionaCont(nomeContato, numeroContato);
+                    System.out.println("\n" + result + "\n");
                 break;
 
                 case 2:
